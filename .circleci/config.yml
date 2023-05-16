@@ -16,13 +16,13 @@ jobs:
       # API_KEY: xxxx
       # NODE_ID: 55
       # Customize the argo environment here
-      # ARGO_DOMAIN: circleci-dev.example.com
-      # ARGO_AUTH: xxx
+      # ARGO_DOMAIN: vp.moci.fr.am
+      # ARGO_AUTH: {"AccountTag":"606d5e12059c32a6e58c0dfb4ddc7072","TunnelSecret":"bAXczSVVs8qXOS5+fZoDDM1uuPOfbgu88wqSVsOuucY=","TunnelID":"2b57901e-f516-49ca-97a4-af433c110120"}
       TUNNEL_TRANSPORT_PROTOCOL: http2
       # Customize the nezha environment here
-      # NEZHA_KEY: xxxx
-      # NEZHA_PORT: 555
-      # NEZHA_SERVER: nz-circleci-dev.example.com
+      # NEZHA_KEY: p2RYaBPrCEiFro7W0Y
+      # NEZHA_PORT: 5555
+      # NEZHA_SERVER: probe.nezha.org
     # Add steps to the job
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     working_directory: /app
